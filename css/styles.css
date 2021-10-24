@@ -459,12 +459,13 @@ body {
 }
 
 .benefits-card {
-    max-width: 270px;
-    max-height: 296px;
+    width: 270px;
+    /*max-height: 296px;*/
     border: 1px solid #E9E9E9;
     box-sizing: border-box;
     box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
     border-radius: 18px;
+    margin: 15px;
     padding: 30px 22px 24px;
     display: flex;
     flex-direction: column;
@@ -481,7 +482,6 @@ body {
     color: #000000;
     margin-top: 24px;
     margin-bottom: 0;
-    /*padding: 0 30px 0;*/
 }
 
 .benefit-description {
