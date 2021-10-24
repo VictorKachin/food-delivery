@@ -71,7 +71,6 @@ body {
     justify-content: center;
     margin-left: 30px;
     text-decoration: none;
-
 }
 
 .shopping-counter {
@@ -361,10 +360,10 @@ body {
     color: #F37321;
 }
 
-.tab-content {
+.tabs-content {
     display: flex;
+    justify-content: space-between;
     margin: -15px;
-
 }
 
 .tab-card {
@@ -372,6 +371,7 @@ body {
     border-radius: 20px;
     overflow: hidden;
     background-color: #fff;
+    margin: 15px;
 }
 
 .tab-image {
@@ -439,6 +439,59 @@ body {
     margin: 60px auto 0;
     width: 320px;
 }
+
+.benefits {
+    padding: 100px 122px 200px;
+}
+
+.benefits-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 23px;
+    color: #000;
+    margin-bottom: 52px;
+}
+
+.benefits-content {
+    display: flex;
+    justify-content: space-between;
+    margin: -15px;
+}
+
+.benefits-card {
+    max-width: 270px;
+    max-height: 296px;
+    border: 1px solid #E9E9E9;
+    box-sizing: border-box;
+    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    padding: 30px 22px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.benefit-title, .benefit-description {
+    text-align: center;
+}
+
+.benefit-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #000000;
+    margin-top: 24px;
+    margin-bottom: 0;
+    /*padding: 0 30px 0;*/
+}
+
+.benefit-description {
+    font-size: 14px;
+    line-height: 22px;
+    color: #49494F;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
 
 .footer {
     padding: 40px 0;
