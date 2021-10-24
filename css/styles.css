@@ -183,6 +183,10 @@ body {
     justify-content: space-between;
 }
 
+.card:first-child {
+    margin-right: 20px;
+}
+
 .card:before {
     z-index: -1;
     content: "";
